@@ -31,3 +31,5 @@ screen -X -S 10749.Bot kill
 لا تقم بعمل <b>ويب هوك للملف</b> حتى لا يتوقف 🙂 <br>
 قم برفع الملف في مسار `/root` وليس `/var/www/html`
 * [يحيى السوري 💕](https://t.me/KKYKKN)
+<br>
+<a href="https://t.me/Dv_Wolf"><img src="https://img.shields.io/badge/Chat-on%20Telegram-2CA5E0.svg?logo=telegram&style=for-the-badge" alt="Chat on Telegram"/></a>
