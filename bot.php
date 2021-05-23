@@ -1,8 +1,9 @@
 <?php
 /* 
  * Telegram Channel @TeamSyria 🍃
-  * Telegram Channel @HLOOFiles 💯
-  * Telegram MyUser @KKYKKN 💕
+ * Telegram Channel @HLOOFiles 💯
+ * Telegram MyUser @KKYKKN 💕
+ * Github https://github.com/yhyasyrian/Telegram-Bot-PHP 🌐
 */
 error_reporting(1);
 $Token = '';// Your Token
@@ -72,6 +73,7 @@ break;
 }
 /* 
  * Telegram Channel @TeamSyria 🍃
-  * Telegram Channel @HLOOFiles 💯
-  * Telegram MyUser @KKYKKN 💕
+ * Telegram Channel @HLOOFiles 💯
+ * Telegram MyUser @KKYKKN 💕
+ * Github https://github.com/yhyasyrian/Telegram-Bot-PHP 🌐
 */
