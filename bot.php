@@ -22,11 +22,15 @@ $ch = curl_init();
         return json_decode($res);
     }
 }
-bot('deletewebhook',[]);
 function getupdate($offset){
-	return bot('getupdates',[
+	$getupdates = bot('getupdates',[
 	'offset'=>$offset,
-	])->result[0];
+	]);
+	if(!empty($getupdates->error_code) && $getupdates->error_code == 409){
+		bot('deletewebhook');
+		return getupdate($offset);
+	}
+	return $getupdates->result[0];
 }
 function run($update){
 print_r($update);
